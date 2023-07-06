@@ -1,0 +1,17 @@
+.ofertas{
+    margin-top: 3rem;
+}
+
+.ofertas h3{
+    text-align: center;
+    font-size: 22px;
+    font-family: var(--primary-font);
+    opacity: 0.5;
+}
+
+.ofertas h2{
+    text-align: center;
+    font-family: var(--secundary-font);
+    font-size: 82px;
+    font-weight: 900;
+}

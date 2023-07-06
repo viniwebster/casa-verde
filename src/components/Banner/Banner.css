@@ -1,0 +1,29 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner__title span{
+    font-family: var(--primary-font);
+    color: var(--secundary-color);
+    opacity: 0.5;
+    font-size: 1.375rem ;
+    margin-bottom: 0.75rem;
+}
+
+.banner__title h1{
+    font-family: var(--secundary-font);
+    font-size:  5.125rem;
+    font-weight: 900;
+    text-transform: lowercase;
+    margin-bottom: 1.5rem;
+}
+
+.banner__title p{
+    font-family: var(--primary-font);
+    color: var(--secundary-color);
+    opacity: 0.5;
+    line-height: 1.625rem;
+    margin-bottom: 2rem;
+}

@@ -1,10 +1,25 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&family=Montserrat&display=swap');
+
+:root{
+ --primary-font: 'Montserrat', sans-serif;
+ --secundary-font: 'Elsie Swash Caps', cursive;
+
+--primary-color: #FFCB47;
+--secundary-color: #202020;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  font-family: var(--primary-font);
+}
+
+.container{
+  width: 100vw;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.App {
+  background: right top no-repeat url('/public/assets/background.svg');
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,7 +28,7 @@
   }
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,9 +37,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
 }
 
@@ -35,4 +50,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
