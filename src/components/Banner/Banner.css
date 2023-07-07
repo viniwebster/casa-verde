@@ -29,5 +29,32 @@
 }
 
 .banner img{
-    height: 800px;
+    height: 880px;
+}
+
+@media screen and (max-width: 890px) {
+    .banner__title{
+        padding: 0 1rem;
+        box-sizing: border-box;
+    }
+  
+    .banner{
+        padding: 4rem 0;
+        min-height: calc(100vh - 78.44px);
+    }
+
+    .banner img{
+        display: none;
+    }
+
+    .banner__title p{
+        font-size: 1.25rem;
+        opacity: 0.7;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .banner__title h1{
+        font-size:  4.5rem;
+    }
 }
