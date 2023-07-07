@@ -10,7 +10,7 @@ function Banner({titulo, descricao}) {
                 <p>{descricao}</p>       
                 <CampoEmail type={'email'} placeholder={'Insira seu e-mail'}textoBotao={'Assinar newsletter'}/>
             </div>    
-            <img src='assets/imagem-hero.png'/>
+            <img src='assets/imagem-hero.png' alt='Arvore'/>
         </section>
     )
 }

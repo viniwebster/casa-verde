@@ -27,3 +27,7 @@
     line-height: 1.625rem;
     margin-bottom: 2rem;
 }
+
+.banner img{
+    height: 800px;
+}
