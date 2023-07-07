@@ -1,6 +1,7 @@
 .card__infos{
     display: flex;
-    width: 55%;
+    margin: auto;
+    width: 90%;
     box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.06);
 }
 
@@ -39,4 +40,12 @@
 
 .info:last-child{
     margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 890px) {
+    .card__infos{
+        flex-direction: column;
+        text-align: center;
+    }
 }
