@@ -1,0 +1,31 @@
+.item-comprado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+
+    padding: 0 .5rem;
+    box-sizing: border-box;
+
+    border-radius: 7px;
+    height: 60px;
+    background-color: #FFF7D4;
+}
+
+.item-nome{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.item-nome img{
+    width: 50px;
+}
+
+
+.preco__container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
