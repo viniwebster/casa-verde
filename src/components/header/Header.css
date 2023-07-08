@@ -53,3 +53,12 @@
         display: block;
     }
 }
+
+.carrinho{
+    position: relative;
+}
+
+.cart{
+    position: absolute;
+    right: 0;
+}

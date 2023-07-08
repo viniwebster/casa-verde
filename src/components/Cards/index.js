@@ -1,6 +1,6 @@
 import './Cards.css';
 
-function Cards({nome, preco, imagem}) {
+function Cards({nome, preco, imagem, add}) {
 
     const background = {
         background: `url(${imagem})`,
@@ -14,8 +14,8 @@ function Cards({nome, preco, imagem}) {
                 <h4>{nome}</h4>
                 <span> R$ {preco} </span>
                 <div className='produto__info-button'>
-                    <button>Comprar</button>
-                    <img src='assets/seta.svg' />
+                    <button onClick={() => add({nome, preco, imagem})}>Comprar</button>
+                    <img src='assets/seta.svg' alt='seta' />
                 </div>
             </div>
         </li>
