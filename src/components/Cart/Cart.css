@@ -26,7 +26,7 @@
 @media screen and (max-width: 450px) {
     .cart{
         position: absolute;
-        width: 100vw;
-        right: -290%;
+        width: 90vw;
+        right: -205%;
     }
 }
