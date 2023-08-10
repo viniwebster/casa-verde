@@ -6,7 +6,7 @@ Projeto do 7 days of code.
 | :placard: Vitrine.Dev | Casa Verde |
 | -------------  | --- |
 | :sparkles: Nome        | **Casa Verde**
-| :label: Tecnologias | React.JS e SCSS
+| :label: Tecnologias | React.JS e CSS
 | :rocket: URL         | https://casa-verde-nine.vercel.app/
 | :fire: Desafio     | https://7daysofcode.io/matricula/react
 
